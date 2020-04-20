@@ -5,6 +5,9 @@
   color: #fff;
   margin: 0 0 44px 0;
   text-underline-position: under;
-  
-
 }
+
+.places__link:hover {
+  text-decoration: none;
+}
+

@@ -5,3 +5,15 @@
   text-transform: uppercase;
   margin: 0 0 0 0;
 }
+
+@media (max-width : 800px) {
+  .lead__captian {
+    margin: 0 0 0 24px;
+  }
+}
+
+@media (max-width : 340px) {
+  .lead__captian {
+    margin: 0 0 0 16px;
+  }
+}
