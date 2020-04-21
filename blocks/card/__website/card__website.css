@@ -1,0 +1,11 @@
+.card__website {
+  grid-area: link;
+  margin: 0 0 4px 0;
+  align-self: end;
+}
+
+@media (max-width : 500px) {
+  .card__website {
+    display: none;
+  }
+}

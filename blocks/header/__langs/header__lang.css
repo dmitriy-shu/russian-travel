@@ -1,9 +1,11 @@
 .header__lang {
-  margin-top: 13px;
+  display: flex;
+  margin: 13px 0 0 0;
+  padding: 0;
   }
 
   @media (max-width : 340px) {
     .header__lang {
-      margin-top: 8px;
+      margin: 8px 0 0 0;
       }
   }

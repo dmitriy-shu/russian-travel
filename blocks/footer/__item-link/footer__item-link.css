@@ -4,11 +4,13 @@
   font-size: 16px;
   line-height: 18px;
   text-decoration: none;
+  transition: .5s ease;
 }
 
 .footer__item-link:hover {
-  text-decoration: underline;
+  opacity: 30%;
 }
+
 
 @media (max-width : 600px) {
   .footer__item-link {

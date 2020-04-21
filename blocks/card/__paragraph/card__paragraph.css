@@ -1,0 +1,28 @@
+.card__paragraph {
+  grid-area: parag;
+  font-size: 18px;
+  line-height: 30px;
+  margin: -4px 0 28px 0;
+}
+
+.card__paragraph:last-child {
+  margin: -4px 0 0 0;
+}
+
+@media (max-width : 800px) {
+  .card__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  } 
+}
+
+@media (max-width : 500px) {
+  .card__paragraph {
+    max-width: 288px;
+    margin: 0 0 24px 12px;
+    justify-self: center;
+  }
+  .card__paragraph:last-child {
+    margin: 0 0 0 12px;
+  }
+}

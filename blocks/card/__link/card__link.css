@@ -1,0 +1,13 @@
+.card__link {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  margin: 0 0 44px 0;
+  text-decoration: underline;
+  transition: ease .5s;
+}
+
+.card__link:hover {
+  opacity: 30%;
+}

@@ -1,9 +1,0 @@
-.intro__list-item {
-  font-size: 12px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.intro__list-item:last-child {
-  margin-bottom: 0;
-}
